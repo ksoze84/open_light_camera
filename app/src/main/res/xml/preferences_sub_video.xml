@@ -23,7 +23,7 @@
         android:summary="@string/preference_video_output_format_summary"
         android:entries="@array/preference_video_output_format_entries"
         android:entryValues="@array/preference_video_output_format_values"
-        android:defaultValue="preference_video_output_format_mpeg4_h264"
+        android:defaultValue="preference_video_output_format_mpeg4_hevc"
         />
 
     <!--  if we move this to another PreferenceGroup, we should update code for the findPreference() call -->

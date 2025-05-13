@@ -334,6 +334,8 @@ public class CameraController1 extends CameraController {
             // with CameraController1 anyway
             camera_features.picture_sizes.add(new CameraController.Size(camera_size.width, camera_size.height));
         }
+
+        
         // sizes are usually already sorted from high to low, but sort just in case
         // note some devices do have sizes in a not fully sorted order (e.g., Nokia 8)
         Collections.sort(camera_features.picture_sizes, new CameraController.SizeSorter());
